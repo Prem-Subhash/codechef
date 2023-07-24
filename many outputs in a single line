@@ -1,0 +1,12 @@
+You can also have multiple outputs together in a single "cout" command.
+They are joined together using the "<<" symbol.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+  cout << 3 + 4 << endl << 2 + 1;
+return 0;
+    
+    
+}
