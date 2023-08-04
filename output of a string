@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main () {
+
+  string x = "hello";
+  x[0] = 'j';
+  cout << x;
+
+  return 0;
+}
+
+output jello
