@@ -1,0 +1,20 @@
+//Update the '_' below to solve the problem
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int N,A;
+	    cin >> N >> A;
+	    int chef_chocolates = __;
+        int chefina_chocolates = _ - _;
+        int diff = __(chefina_chocolates - chef_chocolates);
+        cout << __ <<endl;
+	}
+	return 0;
+}
