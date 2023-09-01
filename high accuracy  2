@@ -1,0 +1,29 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+ {
+  int X;
+  cin>>X;
+  // Borrow the template from the sub-component, replace the relevant output
+  if (X%3 == 0)
+    {
+      cout<<0<<endl;
+    }
+  else if ((X+1)%3 == 0)
+    {
+      cout<<1<<endl;
+    }
+  else
+    {
+      cout<<2<<endl;
+    }
+  } 
+return 0;
+}
