@@ -1,0 +1,20 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+ {
+    int N, X;
+    cin>>N>>X;
+    //Borrow the template from the sub-problem
+    int option1 = X;         
+    int option2 = N-X;
+    cout<<min(option1,option2)<<endl;
+ }
+return 0;
+}
